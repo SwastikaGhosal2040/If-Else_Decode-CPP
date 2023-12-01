@@ -1,0 +1,25 @@
+Even Odd
+code:
+//even odd
+#include<iostream>
+using namespace std;
+int main()
+{
+	int num;
+	cout<<"Take a positive integer input:";
+	cin>>num;
+	if(num % 2 == 0)
+	  cout<<num<<" is even number";
+	else
+	  cout<<num<<" is odd number";
+}
+
+Explanation:
+% operator gives us the remainder.
+if (num % 2 == 0) 
+  cout<<num<<"is even number";
+means:
+  if after dividing the number with 2 if the remainder is 0, that implies the number is divisible by 2, means the number is even.
+else
+  cout<<num<<"is odd number";
+if after dividing the number with 2 if the remainder is not equals to 0, that implies the number is not divisible by 2, means the number is odd.

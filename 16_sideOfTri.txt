@@ -1,0 +1,12 @@
+Ques: Take 3 numbers input and tell if they can be the sides of a triangle
+
+Explanation:
+let, 
+1st side: a
+2nd side: b
+3rd side: c
+
+(a+b>c)
+(b+c>a)
+(c+a>c)  if these 3 conditions are true, 
+a,b,c could be side of a triangle.

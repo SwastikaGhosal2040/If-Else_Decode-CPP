@@ -1,0 +1,16 @@
+Ques: Predict the output
+
+#include<iostream>
+using namespace std;
+int main()
+{
+ int number = 0;
+ if(number>0) cout<<"Number is positive";
+ if(number=>0) cout<<"Number is not negative";
+}
+
+Output:
+Error
+=> does not equals to >=
+>= is only valid.
+so, error generates.

@@ -1,0 +1,41 @@
+Ques: If cost price and selling price of an item is input through the keyboard, write a program to determine whether the seller has made profit or incurred loss. Also determine how much profit he made or loss he incurred.
+
+Explanation:
+CostPrice = CP
+SellingPrice = SP
+let, CP = 40
+     SP = 60
+     Profit(SP>CP) = SP - CP = 60 - 40 = 20
+     CP = 40
+     SP = 20
+     Loss(CP>SP)   = CP - SP = 40 - 20 = 20
+code1:
+#include<iostream>
+using namespace std;
+int main()
+{
+	float cp;
+	cout<<"Enter cost price:";
+	cin>>cp;
+	
+	float sp;
+	cout<<"Enter selling price:";
+	cin>>sp;
+	
+	float profit = sp -cp;
+	float loss = cp -sp;
+	if(sp>cp)
+	  cout<<"Profit amount: "<<profit;
+	else if(cp>sp) 
+	  cout<<"Loss amount: "<<loss;
+	else   //cp==sp
+	  cout<<"No profit, no loss";
+}
+
+code2://without using else
+if(sp>cp)
+  cout<<"Profit";
+if(cp>sp)
+  cout<<"Loss";
+if(cp==sp)
+  cout<<"No profit, no loss";

@@ -1,0 +1,50 @@
+Ques: Given an integer. Print the absolute value of that integer.
+
+code1:
+//absolute value
+#include<iostream>
+using namespace std;
+int main()
+{
+	int num;
+	cout<<"Take an integer input:";
+	cin>>num;
+	if(num > 0)
+	  cout<<"Absolute value is: "<<num;
+	else
+	  cout<<"Absolute value is: "<<-num;
+}
+
+code2:
+//absolute value
+#include<iostream>
+using namespace std;
+int main()
+{
+	int num;
+	cout<<"Take an integer input:";
+	cin>>num;
+	if(num<0)
+	  num = -num;
+	cout<<"Absolute value is:"<<num;
+}
+
+Explanation:
+n = |7| = 7
+n = |-3| = -(-3) = 3
+ let's print the numbers of number line:
+....-4 -3 -2 -1 0 1 2 3 4....
+
+if(n>0)
+  cout<<n;(Absolute number)
+means:
+If the number is positive it is the absolute number.
+eg)n = |7| = 7
+
+else
+  cout<<-n;(Absolute number)
+means:
+If the number is negative, absolute number should be it's negative.
+n = |-3| = -(-3) = 3
+else means n <= 0
+So, when we give 0 input, output is 0

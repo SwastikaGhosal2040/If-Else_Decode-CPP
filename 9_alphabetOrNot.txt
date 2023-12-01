@@ -1,0 +1,21 @@
+Ques: WAP to check whether a character is alphabet or not
+
+Explanation:
+A -> 65         a -> 97
+    +25           +  25
+---------      ----------
+Z -> 90         z ->122
+
+char ch; //[initialize character ch]
+if((ch>=65 && ch<=90) || (ch>=97 && ch<=122))
+   cout<<ch<<" is an alphabet";
+else
+   cout<<ch<<" is not an alphabet";
+
+Another method:
+if(ch>=65 && ch<=90)
+  cout<<ch<<" is a uppercase alphabet";
+else if(ch>=97 && ch<=122)
+  cout<<ch<<" is a lowercase alphabet"; 
+else
+  cout<<ch<<" is not an alphabet";

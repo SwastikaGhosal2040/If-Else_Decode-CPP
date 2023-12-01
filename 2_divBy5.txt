@@ -1,0 +1,10 @@
+Explanation:
+if (num % 5 == 0)
+  cout<<num<<"is divisible by 5";
+means:
+  if after dividing the number with 5 if the remainder is 0, that implies the number is divisible by 5
+(% operator gives us the remainder.)
+else
+  cout<<num<<"is not divisible by 5";
+means:
+  if after dividing the number with 5 if the remainder is not equals to 0, that implies the number is not divisible by 5

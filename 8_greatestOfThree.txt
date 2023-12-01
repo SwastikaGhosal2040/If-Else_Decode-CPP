@@ -1,0 +1,19 @@
+Ques: WAP to find the greatest number among 3
+
+Explanation:
+let, a,b,c 3 int numbers.
+if(a>b && a>c)  //[both true]
+  cout<<a<<" is largest";
+if(b>a && b>c)  //[both true]
+  cout<<b<<" is largest";
+if(c>a && c>b)  //[both true]
+  cout<<c<<" is largest";
+
+Another method:
+if(a>b && a>c)  //[both true]
+  cout<<a<<" is largest";
+else if(b>a && b>c)  //[both true]
+  cout<<b<<" is largest";
+else
+  cout<<c<<" is largest";
+

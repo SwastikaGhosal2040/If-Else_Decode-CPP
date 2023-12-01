@@ -1,0 +1,15 @@
+Ques: Predict the output
+
+#include<iostream>
+using namespace std;
+int main()
+{
+ int score = 100;
+ 
+ if(score == 100) cout<<"You win";
+ else cout<<"You lose";
+
+return 0;
+}
+
+Output: You win
